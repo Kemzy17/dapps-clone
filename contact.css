@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #041938;
+  color: white;
+  font-family: "Roboto";
+}
+section {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* margin: auto; */
+  margin-top: 60px;
+}
+.container {
+  max-width: 450px;
+  border: 1px solid rgb(104, 98, 98);
+  margin: auto;
+
+  border-radius: 10px;
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #000d26;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.close-btn {
+  padding: 5px;
+  font-size: 30px;
+  background-color: #ff006c;
+  display: flex;
+  height: 18px;
+  width: 18px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+.middle-page {
+  margin: 30px;
+  background-color: #000d26;
+  border-radius: 10px;
+  padding: 25px;
+}
+.conn {
+  font-size: 18px;
+}
+.icon-text {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  font-size: 30px;
+  color: #ff006c;
+  margin-right: 20px;
+}
+.wallet {
+  margin-left: 37px;
+  font-size: 13px;
+}
+.first {
+  margin-bottom: 30px;
+}
+.second {
+  margin-bottom: 25px;
+}
+.walletconnet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 50px;
+  width: 87%;
+  background-color: #2b426a;
+  border-radius: 10px;
+}
+.walletconnet p {
+  margin-right: 5px;
+}
+.walletconnect {
+  margin-bottom: 40px;
+}
+.learn {
+  color: #ff006c;
+  padding-left: 40%;
+}
